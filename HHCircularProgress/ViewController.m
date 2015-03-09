@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HHCircularProgress.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:1];
+    
+    HHCircularProgress *progressView = [[HHCircularProgress alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    progressView.lineWidth = 10.f;
+    progressView.lineColor = [UIColor redColor];
+    progressView.progress = 0.5;
+    
+    [self.view addSubview:progressView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,7 @@
 		44E66AE41AAD7FE7009498C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E66AE31AAD7FE7009498C5 /* Images.xcassets */; };
 		44E66AE71AAD7FE7009498C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44E66AE51AAD7FE7009498C5 /* LaunchScreen.xib */; };
 		44E66AF31AAD7FE7009498C5 /* HHCircularProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E66AF21AAD7FE7009498C5 /* HHCircularProgressTests.m */; };
+		44E66AFF1AAD8092009498C5 /* HHCircularProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E66AFE1AAD8092009498C5 /* HHCircularProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		44E66AEC1AAD7FE7009498C5 /* HHCircularProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHCircularProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E66AF11AAD7FE7009498C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E66AF21AAD7FE7009498C5 /* HHCircularProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCircularProgressTests.m; sourceTree = "<group>"; };
+		44E66AFD1AAD8092009498C5 /* HHCircularProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHCircularProgress.h; sourceTree = "<group>"; };
+		44E66AFE1AAD8092009498C5 /* HHCircularProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHCircularProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		44E66AD51AAD7FE7009498C5 /* HHCircularProgress */ = {
 			isa = PBXGroup;
 			children = (
+				44E66AFC1AAD7FF1009498C5 /* HHCircularProgress */,
 				44E66ADA1AAD7FE7009498C5 /* AppDelegate.h */,
 				44E66ADB1AAD7FE7009498C5 /* AppDelegate.m */,
 				44E66ADD1AAD7FE7009498C5 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				44E66AF11AAD7FE7009498C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44E66AFC1AAD7FF1009498C5 /* HHCircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				44E66AFD1AAD8092009498C5 /* HHCircularProgress.h */,
+				44E66AFE1AAD8092009498C5 /* HHCircularProgress.m */,
+			);
+			name = HHCircularProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E66ADF1AAD7FE7009498C5 /* ViewController.m in Sources */,
+				44E66AFF1AAD8092009498C5 /* HHCircularProgress.m in Sources */,
 				44E66ADC1AAD7FE7009498C5 /* AppDelegate.m in Sources */,
 				44E66AD91AAD7FE7009498C5 /* main.m in Sources */,
 			);
