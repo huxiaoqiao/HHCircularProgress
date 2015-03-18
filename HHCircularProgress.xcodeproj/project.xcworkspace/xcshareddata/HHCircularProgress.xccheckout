@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>10CBFF78-C76D-4B94-9154-DA1174EB7E16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HHCircularProgress</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>082CF8BA06B77162F99224B9A612508DAC911CDD</key>
+		<string>https://github.com/huxiaoqiao/HHCircularProgress.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HHCircularProgress.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>082CF8BA06B77162F99224B9A612508DAC911CDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huxiaoqiao/HHCircularProgress.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>082CF8BA06B77162F99224B9A612508DAC911CDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>082CF8BA06B77162F99224B9A612508DAC911CDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HHCircularProgress</string>
+		</dict>
+	</array>
+</dict>
+</plist>
