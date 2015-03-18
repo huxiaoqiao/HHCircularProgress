@@ -23,6 +23,7 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:1];
     
+<<<<<<< HEAD
     progressView = [[HHCircularProgress alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
     progressView.lineWidth = 10.f;
     progressView.lineColor = [UIColor lightTextColor];
@@ -43,6 +44,15 @@
     [UIView animateWithDuration:10 animations:^{
         progressView.progress = 1;
     }];
+=======
+    HHCircularProgress *progressView = [[HHCircularProgress alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    progressView.lineWidth = 10.f;
+    progressView.lineColor = [UIColor redColor];
+    progressView.progress = 0.5;
+    
+    [self.view addSubview:progressView];
+    
+>>>>>>> FETCH_HEAD
 }
 
 - (void)didReceiveMemoryWarning {

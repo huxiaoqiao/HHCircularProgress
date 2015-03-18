@@ -54,7 +54,11 @@
     //基本配置
     _shapeLayer.fillColor = [UIColor clearColor].CGColor;
     _shapeLayer.lineWidth = 2.f;
+<<<<<<< HEAD
     _shapeLayer.strokeColor = [UIColor lightTextColor].CGColor;
+=======
+    _shapeLayer.strokeColor = [UIColor orangeColor].CGColor;
+>>>>>>> FETCH_HEAD
     _shapeLayer.strokeEnd = 0.f;
     
     
@@ -65,6 +69,7 @@
 
 @synthesize progress = _progress;
 - (void)setProgress:(CGFloat)progress{
+<<<<<<< HEAD
     
     if (progress <0) {
         _progress = 0;
@@ -82,6 +87,11 @@
         _shapeLayer.strokeEnd = 1;
     }
 
+=======
+        _progress = progress;
+    _shapeLayer.strokeStart = 0;
+    _shapeLayer.strokeEnd = progress;
+>>>>>>> FETCH_HEAD
 }
 
 
@@ -107,6 +117,7 @@
     return _lineWidth;
 }
 
+<<<<<<< HEAD
 @synthesize startAngle = _startAngle;
 - (void)setStartAngle:(CGFloat)startAngle
 {
@@ -116,6 +127,9 @@
         _shapeLayer.path = _bezierPath.CGPath;
     }
 }
+=======
+
+>>>>>>> FETCH_HEAD
 
 
 @end
