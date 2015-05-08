@@ -23,36 +23,32 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:1];
     
-<<<<<<< HEAD
+
     progressView = [[HHCircularProgress alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
     progressView.lineWidth = 10.f;
     progressView.lineColor = [UIColor lightTextColor];
-    progressView.progress = 0.6;
+    progressView.progress = 0.1;
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.frame = progressView.frame;
     
     [button setTitle:@"点击动画" forState:UIControlStateNormal];
     
-    [self.view addSubview:button];
+  
     [button addTarget:self action:@selector(progressAnimation) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:progressView];
+      [self.view addSubview:button];
     
 }
 
 - (void)progressAnimation{
-    [UIView animateWithDuration:10 animations:^{
+
         progressView.progress = 1;
-    }];
-=======
-    HHCircularProgress *progressView = [[HHCircularProgress alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
-    progressView.lineWidth = 10.f;
-    progressView.lineColor = [UIColor redColor];
-    progressView.progress = 0.5;
     
-    [self.view addSubview:progressView];
+
+   
     
->>>>>>> FETCH_HEAD
+
 }
 
 - (void)didReceiveMemoryWarning {

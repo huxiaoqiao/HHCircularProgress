@@ -18,9 +18,8 @@
 
 @property (nonatomic, assign) CGFloat startAngle;
 
-<<<<<<< HEAD
-=======
+
 @property (nonatomic, assign) CGFloat endAngle;
 
->>>>>>> FETCH_HEAD
+
 @end
